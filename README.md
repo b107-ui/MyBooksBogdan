@@ -82,3 +82,91 @@
         </form>
     </body>
 </html>
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #333;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+ol, ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+li {
+   margin-bottom: 5px;
+}
+img {
+   margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:hover {
+    color: #003d80;
+    text-decoration: underline;
+}
+table {
+    margin-bottom:20px; 
+    background-color: #fff; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #005663; 
+    color: #fff;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #003d80;
+}
